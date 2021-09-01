@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1459305272254-33a7d593a851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 60px;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.navLink:hover {
+    background-color: rgb(104, 104, 104);
+}
+
+.navLink {
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.headerOne {
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.main {
+    max-width: 900px;
+    margin-top: 20px;
+    background-color: rgba(136, 46, 46, 0.4);
+    grid-auto-flow: dense;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  auto auto 315px 315px auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+#video{
+    width: 75%;
+    height: 100%;
+}
+
+#video2{
+    width: 75%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.bodyMessage {
+    width: 75%;
+    color: white;
+
+}
+
+.bodyMessage h1{
+    font-size: 40px;
+}
+
+.bodyMessage p{
+    font-size: 23px;
+}
+
+.bodyMessage a{
+    font-size: 23px;
+    margin: 0;
+}
+
+.bodyMessage a:hover{
+    font-size: 28px;
+}
+
+
+.backGroundPic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    font-size: 3.3vw;
+}
+
+.backGroundPic h1{
+    margin: 0
+}
+
+.followUs{
+    font-size: 20px;
+    color: white;
+    width: 75%;
+}

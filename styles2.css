@@ -1,0 +1,188 @@
+
+body {
+    margin: 0;
+    background: rgb(46, 46, 46);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 60px;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+}
+
+
+.navBar a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.navLink:hover {
+    background-color: rgb(104, 104, 104);
+}
+
+.navLink {
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.mainContainer {
+    align-self: flex-start;
+    margin-top: 70px;
+    margin-left: 15px;
+    /* background-color: white; */
+    height: 700px;
+    width: 50vw;
+    border-right: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.topPicks {
+    align-self: flex-end;
+    margin-top: 70px;
+    margin-left: 10px;
+    height: 700px;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    /* background-color: rgba(57, 145, 246, 0.2); */
+}
+
+.searchButtonContainer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tabSearchBar {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 25vw;
+    margin-left: 0;
+    height: 35px;
+    border-radius: 20px;
+    border: solid white 2px;
+    background: transparent;
+    color: white;
+    font-size: 22px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.tabSearchButton {
+    margin-top: 8px;
+    width: 10vw;
+    font-size: 20px;
+    background: transparent;
+    border: solid white 2px;
+    color: white;
+    
+}
+
+.tabContainer{
+    /* background-color: burlywood; */
+    margin-top: 20px;
+    max-height: 550px;
+    width: 70%;
+    overflow: auto;
+    background-color: rgba(57, 145, 246, 0.2);
+}
+
+.songLink {
+    color: white
+}
+
+.songTitle {
+    color: white;
+    margin-left: 5px;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 5px;
+   
+    
+}
+
+.errorMessage {
+    color: white;
+    margin-left: 5px;
+}
+
+.weeklyTopPicks{
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    align-items: flex-start;
+    border-bottom: solid white 2px;
+     
+}
+
+.tabPick a{
+    text-decoration: none;
+    color: white;
+}
+
+.weeklyTopPicks h1{
+    margin-top: 0;
+    font-size: 37px;
+    margin-bottom: 8px;
+}
+
+.backGroundPic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1535587566541-97121a128dc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    font-size: 3.5vw;
+}
+
+.backGroundPic h1{
+    margin: 0;
+}
+
+#firstTabPick{
+    margin-top: 20px;
+}
+
+.tabPick {
+    margin: 5px
+}
