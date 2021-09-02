@@ -49,26 +49,28 @@ body {
     margin-top: 70px;
     margin-left: 0;
     height: auto;
-    width: 50vw;
-    
+    width: 49vw;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border-right: solid white 2px; */
     
  } 
 
 .topPicks {
     border-left: solid white 2px;
-    align-self: flex-end;
+    align-self: flex-start;
     margin-top: 70px;
     margin-left: 0;
-    height: auto;
+    height: 500px;
     width: 48vw;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: start;
     flex-wrap: wrap;
+    margin-bottom: 30px;
      /* background-color: rgba(57, 145, 246, 0.2); */
 }
 
@@ -110,7 +112,7 @@ body {
 
 .tabContainer{
     margin-top: 20px;
-    max-height: 550px;
+    max-height: 393px;
     width: 85%;
     overflow: auto;
     background-color: rgba(57, 145, 246, 0.2);
