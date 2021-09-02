@@ -48,7 +48,6 @@ body {
     align-self: flex-start;
     margin-top: 70px;
     margin-left: 15px;
-    /* background-color: white; */
     height: 700px;
     width: 50vw;
     border-right: solid 2px white;
@@ -56,7 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
     
-}
+ } 
 
 .topPicks {
     align-self: flex-end;
@@ -69,7 +68,7 @@ body {
     align-content: center;
     justify-content: start;
     flex-wrap: wrap;
-    /* background-color: rgba(57, 145, 246, 0.2); */
+     /* background-color: rgba(57, 145, 246, 0.2); */
 }
 
 .searchButtonContainer {
@@ -86,6 +85,7 @@ body {
     margin-top: 10px;
     margin-right: 5px;
     width: 25vw;
+    min-width: vw;
     margin-left: 0;
     height: 35px;
     border-radius: 20px;
@@ -100,7 +100,7 @@ body {
 .tabSearchButton {
     margin-top: 8px;
     width: 10vw;
-    font-size: 20px;
+    font-size: 1.5vw;
     background: transparent;
     border: solid white 2px;
     color: white;
@@ -108,7 +108,6 @@ body {
 }
 
 .tabContainer{
-    /* background-color: burlywood; */
     margin-top: 20px;
     max-height: 550px;
     width: 70%;
