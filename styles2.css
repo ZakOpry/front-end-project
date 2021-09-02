@@ -104,6 +104,7 @@ body {
     background: transparent;
     border: solid white 2px;
     color: white;
+    height: 33px;
     
 }
 
@@ -222,7 +223,6 @@ body {
     }
     .tabSearchButton{
         width: 18vw;
-        height: 4vh;
         font-size: 3vw;
     }
 }
