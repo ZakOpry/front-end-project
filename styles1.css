@@ -121,7 +121,7 @@ a {
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
-    font-size: 3.3vw;
+    font-size: 40px;
 }
 
 .backGroundPic h1{
@@ -132,4 +132,11 @@ a {
     font-size: 20px;
     color: white;
     width: 75%;
+}
+
+@media screen and (max-width: 660px) {
+    .backGroundPic{
+        font-size: 6vw;
+    }
+    
 }
