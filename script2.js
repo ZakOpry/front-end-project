@@ -7,7 +7,7 @@ async function getTabs() {
 
 const searchBarValue = document.querySelector('.tabSearchBar').value
 const searchBarLength = searchBarValue.length
-const tabData = await fetch(`http://www.songsterr.com/a/ra/songs.json?pattern=${searchBarValue}`); 
+const tabData = await fetch(`https://www.songsterr.com/a/ra/songs.json?pattern=${searchBarValue}`); 
 const tabDataJson = await tabData.json(); 
 tabContainer.innerHTML = ""
 const length = tabDataJson.length
