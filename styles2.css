@@ -199,6 +199,7 @@ body {
     .topPicks{
         align-self: center;
         border: none;
+        margin-bottom: 10px;
     }
     .mainContainer{
        align-self: center; 
