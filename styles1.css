@@ -49,12 +49,14 @@ a {
 
 
 .headerOne {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 70px;
     margin-right: 70px;
     font-size: 20px;
     color: white;
     font-family: 'Cabin', sans-serif;
+    height: auto;
+    text-align: center;
 }
 
 
@@ -71,6 +73,7 @@ a {
     justify-items: center;
     align-content: center;
     gap: 20px;
+    
 }
 
 #video{
@@ -87,6 +90,7 @@ a {
 .bodyMessage {
     width: 75%;
     color: white;
+    height: auto;
 
 }
 
@@ -132,6 +136,7 @@ a {
     font-size: 20px;
     color: white;
     width: 75%;
+    height: auto;
 }
 
 @media screen and (max-width: 660px) {
