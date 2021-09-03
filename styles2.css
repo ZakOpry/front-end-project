@@ -118,6 +118,10 @@ body {
     background-color: rgba(57, 145, 246, 0.2);
 }
 
+.tabContainer a{
+    margin-left: 5px;
+}
+
 .songLink {
     color: white
 }
